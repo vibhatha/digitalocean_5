@@ -18,32 +18,8 @@ exports.identify = function(req,res){
  
 };
 
-PythonShell.run('svmalgo.py', options, function (err, results) {
-  if (err) throw err;
-  // results is an array consisting of messages collected during execution
-  //console.log('results: %j', results);
-    if(results){
-        var len = results.length;
-        console.log("Length : "+len);
-  
-	for(var i=0; i<len ; i++){
-		console.log(results[i]);
-        response+=results[i];
-	}
-    
-        console.log("From Dashboard");
-
-    
-    }else{
-        console.log('No Result');
-    }
-  
-});
-
-return response;
 
 
-};
 
 
 
