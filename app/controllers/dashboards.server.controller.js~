@@ -75,9 +75,9 @@ exports.list = function(req, res) {
 			// Send a JSON representation of the article 
 			//res.json(dashboards);
             
-           var predictio= getPredictions();
-           predictio="Start\n"+predictio+"\nEnd"    
-           res.json(predictio);
+         //  var predictio= getPredictions();
+         //  predictio="Start\n"+predictio+"\nEnd"    
+         //  res.json(predictio);
                
 		}
 	});
@@ -93,10 +93,10 @@ exports.list = function(req, res) {
 		} else {
 			// Send a JSON representation of the article 
 			//res.json(dashboards);
-            var predictio= getPredictions();
-            predictio="Start\n"+predictio+"\nEnd"    
-            console.log(predictio);
-            res.json(predictio);   
+          //  var predictio= getPredictions();
+          //  predictio="Start\n"+predictio+"\nEnd"    
+          //  console.log(predictio);
+         //   res.json(predictio);   
 		}
 	});
  
